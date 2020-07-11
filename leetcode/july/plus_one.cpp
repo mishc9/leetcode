@@ -28,7 +28,7 @@ class Solution {
 public:
     /*
      * It looks much simpler, but for some strange reason it's also much slower and requires more memory
-     * The reason is clear now. It's because of &reference
+     * The reason is clear now. It's because of initial absence &reference to vector<int> digits
      */
     vector<int> plusOne(vector<int> &digits) {
         int n = digits.size() - 1;

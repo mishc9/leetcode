@@ -10,4 +10,16 @@ add_executable(leetcode
         # leetcode/invert_binary_tree.cpp
         # leetcode/delete_node_ll.cpp
         # leetcode/single_number_two.cpp
-        leetcode/perfect_squares.cpp)
+        # leetcode/perfect_squares.cpp
+        # leetcode/july/arranging_coins.cpp
+        # leetcode/july/bst_order_traversal_ii.cpp
+        # leetcode/july/prison_cells_n_days.cpp
+        # leetcode/july/ugly_number.cpp
+        # leetcode/july/hamming_distance.cpp
+        # leetcode/july/plus_one.cpp
+        # leetcode/july/island_perimeter.cpp
+        # leetcode/july/three_sum.cpp
+        # leetcode/july/max_tree_width.cpp
+        # algo/bfs.cpp
+        # leetcode/july/flatten_ll.cpp
+        leetcode/july/subsets.cpp)
