@@ -22,4 +22,6 @@ add_executable(leetcode
         # leetcode/july/max_tree_width.cpp
         # algo/bfs.cpp
         # leetcode/july/flatten_ll.cpp
-        leetcode/july/subsets.cpp)
+        # leetcode/july/subsets.cpp
+        # leetcode/july/subsets_cascading.cpp
+        leetcode/july/subsets_backtracking.cpp)
