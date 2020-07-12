@@ -24,4 +24,7 @@ add_executable(leetcode
         # leetcode/july/flatten_ll.cpp
         # leetcode/july/subsets.cpp
         # leetcode/july/subsets_cascading.cpp
-        leetcode/july/subsets_backtracking.cpp)
+        # leetcode/july/subsets_backtracking.cpp
+        # arrays/remove_zeros.cpp
+        # leetcode/july/reverse_bits.cpp
+        algo/can_win_nim.cpp)
