@@ -27,4 +27,15 @@ add_executable(leetcode
         # leetcode/july/subsets_backtracking.cpp
         # arrays/remove_zeros.cpp
         # leetcode/july/reverse_bits.cpp
-        algo/can_win_nim.cpp)
+        # algo/can_win_nim.cpp
+        # leetcode/july/is_same_tree.cpp
+        # leetcode/july/angle_clock.cpp
+        # leetcode/july/reverse_words.cpp
+        # leetcode/july/pon_x_n.cpp
+        # leetcode/july/topKFrequent.cpp
+        # leetcode/july/remove_elements.cpp
+        # leetcode/july/zigzag_level_order.cpp
+        # leetcode/july/single_number_three.cpp
+        # leetcode/july/find_min.cpp
+        # leetcode/july/build_tree.cpp
+        leetcode/july/least_interval.cpp leetcode/july/max_profit.cpp)
