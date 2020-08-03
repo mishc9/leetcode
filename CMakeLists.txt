@@ -38,4 +38,10 @@ add_executable(leetcode
         # leetcode/july/single_number_three.cpp
         # leetcode/july/find_min.cpp
         # leetcode/july/build_tree.cpp
-        leetcode/july/least_interval.cpp leetcode/july/max_profit.cpp)
+        # leetcode/july/least_interval.cpp
+        # leetcode/july/max_profit.cpp
+        # leetcode/july/climbing_stairs.cpp
+        # leetcode/august/detect_capital.cpp
+        # leetcode/august/logger_rate_limiter.cpp
+        # leetcode/august/my_hash_set.cpp
+        leetcode/august/is_palindrome.cpp)

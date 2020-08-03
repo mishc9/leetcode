@@ -9,7 +9,11 @@ using namespace std;
 
 class Solution {
 public:
-    int maxProfit(const vector<int> &prices) {
+    int maxProfit(vector<int> &prices) {
+        if (prices.empty()) { return 0; }
+        if (prices.size() == 1) { return 0; }
+        for (int i = 0; i < prices.size() - 1; i++) { prices[i] = prices[i + 1] - prices[i]; }
+        prices.pop_back();
 
         return 0;
     }
@@ -18,6 +22,7 @@ public:
 
 int main() {
     Solution sol;
-    cout << sol.maxProfit({1, 2, 3, 0, 2}) << endl;
+    vector<int> prices = {1, 2, 3, 0, 2};
+    cout << sol.maxProfit(prices) << endl;
     return 0;
 }
