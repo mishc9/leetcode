@@ -44,4 +44,6 @@ add_executable(leetcode
         # leetcode/august/detect_capital.cpp
         # leetcode/august/logger_rate_limiter.cpp
         # leetcode/august/my_hash_set.cpp
-        leetcode/august/is_palindrome.cpp)
+        # leetcode/august/is_palindrome.cpp
+        # gi/numUniqueEmails.cpp
+        leetcode/august/powerOfFour.cpp)
