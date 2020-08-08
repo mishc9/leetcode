@@ -52,4 +52,5 @@ add_executable(leetcode
         # gi/numUniqueEmailsTrie.cpp
         # leetcode/august/findDuplicates.cpp
         # leetcode/august/verticalTraversal.cpp
-        leetcode/august/closestBSTValue.cpp)
+        # leetcode/august/closestBSTValue.cpp
+        leetcode/august/pathSumThree.cpp)
