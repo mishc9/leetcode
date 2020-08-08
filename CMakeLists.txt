@@ -46,4 +46,10 @@ add_executable(leetcode
         # leetcode/august/my_hash_set.cpp
         # leetcode/august/is_palindrome.cpp
         # gi/numUniqueEmails.cpp
-        leetcode/august/powerOfFour.cpp)
+        # leetcode/august/powerOfFour.cpp
+        # leetcode/august/wordDictionary.cpp
+        # leetcode/august/isPalindromeDoublePoiunters.cpp
+        # gi/numUniqueEmailsTrie.cpp
+        # leetcode/august/findDuplicates.cpp
+        # leetcode/august/verticalTraversal.cpp
+        leetcode/august/closestBSTValue.cpp)
