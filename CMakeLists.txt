@@ -53,4 +53,5 @@ add_executable(leetcode
         # leetcode/august/findDuplicates.cpp
         # leetcode/august/verticalTraversal.cpp
         # leetcode/august/closestBSTValue.cpp
-        leetcode/august/pathSumThree.cpp)
+        # leetcode/august/pathSumThree.cpp
+        leetcode/august/arraySum.cpp)

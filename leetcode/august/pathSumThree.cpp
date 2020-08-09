@@ -24,9 +24,37 @@ struct TreeNode {
 
 class Solution {
 public:
-    int pathSum(TreeNode *root, int sum) {
-        unordered_map<int, int> previousSums;
-        return pathSumHelper(root, sum, previousSums);
+    int result = 0, sum;
+    unordered_map<int, int> cache;
+
+    void dfs(TreeNode *root, int partialSum = 0) {
+        partialSum += root->val;
+        result += cache[partialSum - sum];
+        cache[partialSum]++;
+        if (root->left) dfs(root->left, partialSum);
+        if (root->right) dfs(root->right, partialSum);
+        cache[partialSum]--;
+    }
+
+    int pathSum(TreeNode *root, int targetSum) {
+        sum = targetSum;
+        cache[0] = 1;
+        if (!root) return result;
+        dfs(root);
+        return result;
+    }
+
+    int _pathSum(TreeNode *root, int sum) {
+        int result = 0;
+        for (const auto &path: getAllPaths(root)) {
+            result += arraySum(path, sum);
+        }
+        return result;
+
+    }
+
+    vector<vector<int>> getAllPaths(TreeNode *root) {
+
     }
 
     int pathSumHelper(TreeNode *root, int sum, unordered_map<int, int> &previousSums) {
