@@ -76,4 +76,7 @@ add_executable(leetcode
         # leetcode/august/sortArraysByParity.cpp
         # leetcode/august/pickRandomPoint.cpp
         # leetcode/august/theMaze.cpp
-        leetcode/august/streamChecker.cpp leetcode/august/sumOfLeftLeaves.cpp leetcode/august/mincostTickets.cpp)
+        # leetcode/august/streamChecker.cpp
+        # leetcode/august/sumOfLeftLeaves.cpp
+        # leetcode/august/mincostTickets.cpp
+        leetcode/august/fizzBuzz.cpp)
