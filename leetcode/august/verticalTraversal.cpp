@@ -31,8 +31,7 @@ class Solution {
 public:
     struct comp {
         bool operator()(const pair<int, int> &x, const pair<int, int> &y) {
-            if (x.first == y.first)
-                return x.second > y.second;
+            if (x.first == y.first) { return x.second > y.second; }
             return x.first < y.first;
         }
     };

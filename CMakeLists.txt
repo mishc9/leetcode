@@ -56,5 +56,24 @@ add_executable(leetcode
         # leetcode/august/pathSumThree.cpp
         # leetcode/august/arraySum.cpp
         # leetcode/august/rottingOranges.cpp
-        leetcode/august/rottingOrangesBFS.cpp
-        )
+        # leetcode/august/rottingOrangesBFS.cpp
+        # gi/oddEvenJump.cpp
+        # leetcode/august/titleToNumber.cpp
+        # leetcode/hIndex.cpp
+        # leetcode/august/combinationIterator.cpp
+        # leetcode/august/longestPalindrome.cpp
+        # leetcode/august/eraseOverlapIntervals.cpp
+        # leetcode/august/findPermutation.cpp
+        # leetcode/august/maxProfit.cpp
+        # leetcode/august/countNonOverlappingIntervals.cpp
+        # leetcode/august/distributeCandies.cpp
+        # leetcode/august/numsSameConseqDiff.cpp
+        # functional/optional.cpp
+        # leetcode/numsSameConsecDiffRepeat.cpp
+        # leetcode/august/toGoatLatin.cpp
+        # leetcode/august/reorderList.cpp
+        # leetcode/reorderListRetake.cpp
+        # leetcode/august/sortArraysByParity.cpp
+        # leetcode/august/pickRandomPoint.cpp
+        # leetcode/august/theMaze.cpp
+        leetcode/august/streamChecker.cpp leetcode/august/sumOfLeftLeaves.cpp leetcode/august/mincostTickets.cpp)
