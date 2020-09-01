@@ -79,4 +79,15 @@ add_executable(leetcode
         # leetcode/august/streamChecker.cpp
         # leetcode/august/sumOfLeftLeaves.cpp
         # leetcode/august/mincostTickets.cpp
-        leetcode/august/fizzBuzz.cpp)
+        # leetcode/august/fizzBuzz.cpp
+        # leetcode/sumOfSubarrayRetake.cpp
+        # leetcode/august/findRightInterval.cpp
+        # leetcode/august/rand7.cpp
+        # rand10rejection.cpp
+        # leetcode/august/pancakeSort.cpp
+        # leetcode/august/robotRoomCleaner.cpp
+        # leetcode/august/largestComponentFactorSize.cpp
+        # leetcode/largestComponentRetake.cpp
+        # leetcode/august/deleteNode.cpp
+        # leetcode/august/removeNode.cpp
+        leetcode/september/largestTimeFromDigits.cpp leetcode/september/read4.cpp)
