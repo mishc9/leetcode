@@ -90,4 +90,9 @@ add_executable(leetcode
         # leetcode/largestComponentRetake.cpp
         # leetcode/august/deleteNode.cpp
         # leetcode/august/removeNode.cpp
-        leetcode/september/largestTimeFromDigits.cpp leetcode/september/read4.cpp)
+        # leetcode/september/largestTimeFromDigits.cpp
+        # leetcode/september/read4.cpp
+        # leetcode/september/findDuplicatesThree.cpp
+        # retakes/readFour.cpp
+        # leetcode/september/repeatedSubstring.cpp
+        leetcode/september/repeatedSubstr.cpp leetcode/september/partitionLabels.cpp leetcode/september/getAllElementsFromTwoTrees.cpp)

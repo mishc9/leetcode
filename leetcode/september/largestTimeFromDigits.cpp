@@ -31,7 +31,6 @@ ostream &operator<<(ostream &os, const vector<T> &vec)
 
     os << "];";
     return os;
-
 }
 
 class Solution
