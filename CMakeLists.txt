@@ -95,4 +95,33 @@ add_executable(leetcode
         # leetcode/september/findDuplicatesThree.cpp
         # retakes/readFour.cpp
         # leetcode/september/repeatedSubstring.cpp
-        leetcode/september/repeatedSubstr.cpp leetcode/september/partitionLabels.cpp leetcode/september/getAllElementsFromTwoTrees.cpp)
+        # leetcode/september/repeatedSubstr.cpp
+        # leetcode/september/partitionLabels.cpp
+        # leetcode/september/getAllElementsFromTwoTrees.cpp
+        # leetcode/september/largestImageOverlap.cpp
+        # leetcode/september/wordPattern.cpp
+        # leetcode/september/sumOfRootToLeafBinaryNumbers.cpp
+        # leetcode/september/movingAverageFromStream.cpp
+        # leetcode/september/compareVersionNumbers.cpp
+        # leetcode/september/subarraySumAndProd.cpp
+        # retakes/maxSubArraySomething.cpp
+        # leetcode/september/combinationSumThree.cpp
+        # leetcode/september/houseRobber.cpp
+        # leetcode/september/lengthOfTheLastWord.cpp
+        # leetcode/september/bestTimeToBuyAndSell.cpp
+        # leetcode/september/uniquePathsIII.cpp
+        # leetcode/september/maximumXOR.cpp
+        # leetcode/september/carPooling.cpp
+        # leetcode/september/majorityElementII.cpp
+        # leetcode/september/findTheDiffernece.cpp
+        # leetcode/september/teemo_attacking.cpp
+        # leetcode/september/largestNumber.cpp
+        # leetcode/september/evaluateDivision.cpp
+        # leetcode/september/numSubarrayProductLessThanK.cpp
+        # gi/robotRoomCleaner.cpp
+        # retakes/nProductsLessThan.cpp
+        # retakes/robotRoomCleaner.cpp
+        # leetcode/september/wordBreak.cpp
+        # leetcode/september/wordSquares.cpp
+        # leetcode/september/firstMissingPositive.cpp
+        retakes/wordBreak.cpp)
