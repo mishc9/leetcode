@@ -8,54 +8,41 @@
 using namespace std;
 
 using Results = vector<vector<int>>;
+using Candidates = const vector<int> &;
 
 class Solution
 {
-    vector<int> _candidates;
     vector<int> _track;
     Results results;
 public:
-    Results combinationSum(const vector<int> &candidates, int target)
+    Results combinationSum(Candidates candidates, int target)
     {
-        _init(candidates);
-        backtrackingWithRepetitions(0, target);
+        _init();
+        backtrackingWithRepetitions(candidates, 0, target);
         return results;
     }
 
-    Results combinationSumWithRepetitions(const vector<int> &candidates, int target) {
-        _init(candidates);
-        backtrackingWithRepetitions(0, target);
-        return results;
-    }
-    Results combinationSumNoRepetitions(const vector<int> &candidates, int target) {
-        _init(candidates);
-        backtrackingNoRepetitions(0, target);
+    Results combinationSumWithRepetitions(Candidates candidates, int target)
+    {
+        _init();
+        backtrackingWithRepetitions(candidates, 0, target);
         return results;
     }
 
-    void _init(const vector<int> &candidates)
+    Results combinationSumNoRepetitions(Candidates candidates, int target)
     {
-        _candidates = candidates;
+        _init();
+        backtrackingNoRepetitions(candidates, 0, target);
+        return results;
+    }
+
+    void _init()
+    {
         _track.clear();
         results.clear();
     }
 
-    void _backtracking(int position, int target, bool withRepetitions) {
-        if (target < 0) {
-            return;
-        } else if (target == 0) {
-            vector<int> copy(_track);
-            results.emplace_back(copy);
-        } else {
-            for (int i = position; i < _candidates.size(); i++) {
-                _track.emplace_back(_candidates[i]);
-                _backtracking(i + (withRepetitions ? 0 : 1) , target - _candidates[i], withRepetitions);
-                _track.pop_back();
-            }
-        }
-    }
-
-    void backtrackingWithRepetitions(int position, int target)
+    void _backtracking(Candidates candidates, int position, int target, bool withRepetitions)
     {
         if (target < 0) {
             return;
@@ -63,28 +50,25 @@ public:
             vector<int> copy(_track);
             results.emplace_back(copy);
         } else {
-            for (int i = position; i < _candidates.size(); i++) {
-                _track.emplace_back(_candidates[i]);
-                backtrackingWithRepetitions(i, target - _candidates[i]);
+            for (int i = position; i < candidates.size(); i++) {
+                _track.emplace_back(candidates[i]);
+                _backtracking(candidates,
+                              i + (withRepetitions ? 0 : 1), // if all candidates are distinct, skip the
+                              target - candidates[i],  // candidate and you avoid repetitions;
+                              withRepetitions);
                 _track.pop_back();
             }
         }
     }
 
-    void backtrackingNoRepetitions(int position, int target)
+    void backtrackingWithRepetitions(Candidates candidates, int position, int target)
     {
-        if (target < 0) {
-            return;
-        } else if (target == 0) {
-            vector<int> copy(_track);
-            results.emplace_back(copy);
-        } else {
-            for (int i = position; i < _candidates.size(); i++) {
-                _track.emplace_back(_candidates[i]);
-                backtrackingNoRepetitions(i + 1, target - _candidates[i]);
-                _track.pop_back();
-            }
-        }
+        _backtracking(candidates, position, target, true);
+    }
+
+    void backtrackingNoRepetitions(Candidates candidates, int position, int target)
+    {
+        _backtracking(candidates, position, target, false);
     }
 };
 
