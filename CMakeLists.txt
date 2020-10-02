@@ -124,4 +124,8 @@ add_executable(leetcode
         # leetcode/september/wordBreak.cpp
         # leetcode/september/wordSquares.cpp
         # leetcode/september/firstMissingPositive.cpp
-        retakes/wordBreak.cpp)
+        # retakes/wordBreak.cpp
+        # retakes/yetAnotherRobotRoomCleaner.cpp
+        # leetcode/october/recentCalls.cpp
+        # retakes/recentCounter.cpp
+        leetcode/october/combinationSum.cpp)

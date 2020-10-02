@@ -2,7 +2,6 @@
 // Created by Михаил Степанов on 29.09.2020.
 //
 
-#include <vector>
 #include <unordered_set>
 
 using namespace std;
