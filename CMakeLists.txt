@@ -128,4 +128,7 @@ add_executable(leetcode
         # retakes/yetAnotherRobotRoomCleaner.cpp
         # leetcode/october/recentCalls.cpp
         # retakes/recentCounter.cpp
-        leetcode/october/combinationSum.cpp)
+        # leetcode/october/combinationSum.cpp
+        # retakes/combinationCounts.cpp
+        # leetcode/october/findPairs.cpp
+        leetcode/october/coveredIntervals.cpp)
