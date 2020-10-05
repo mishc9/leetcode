@@ -131,4 +131,6 @@ add_executable(leetcode
         # leetcode/october/combinationSum.cpp
         # retakes/combinationCounts.cpp
         # leetcode/october/findPairs.cpp
-        leetcode/october/coveredIntervals.cpp)
+        # leetcode/october/coveredIntervals.cpp
+        # leetcode/october/bitwiseComplement.cpp
+        leetcode/october/maxDistanceInArrays.cpp)
