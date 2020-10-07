@@ -133,4 +133,6 @@ add_executable(leetcode
         # leetcode/october/findPairs.cpp
         # leetcode/october/coveredIntervals.cpp
         # leetcode/october/bitwiseComplement.cpp
-        leetcode/october/maxDistanceInArrays.cpp)
+        # leetcode/october/maxDistanceInArrays.cpp
+        # leetcode/october/insertBinaryTree.cpp
+        leetcode/october/rotateList.cpp)
