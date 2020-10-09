@@ -135,4 +135,5 @@ add_executable(leetcode
         # leetcode/october/bitwiseComplement.cpp
         # leetcode/october/maxDistanceInArrays.cpp
         # leetcode/october/insertBinaryTree.cpp
-        leetcode/october/rotateList.cpp)
+        # leetcode/october/rotateList.cpp
+        retakes/oneMoreRobotRoomCleaner.cpp leetcode/october/binarySearch.cpp retakes/binarySearchRetake.cpp)
