@@ -136,4 +136,16 @@ add_executable(leetcode
         # leetcode/october/maxDistanceInArrays.cpp
         # leetcode/october/insertBinaryTree.cpp
         # leetcode/october/rotateList.cpp
-        retakes/oneMoreRobotRoomCleaner.cpp leetcode/october/binarySearch.cpp retakes/binarySearchRetake.cpp)
+        # retakes/oneMoreRobotRoomCleaner.cpp
+        # leetcode/october/binarySearch.cpp
+        # retakes/binarySearchRetake.cpp
+        # leetcode/october/de_serialize_tree.cpp
+        # leetcode/october/findMinArrowShots.cpp
+        # leetcode/october/removeDuplicatedLetters.cpp
+        # leetcode/october/buddyStrings.cpp
+        # retakes/binarySearch.cpp
+        # leetcode/october/sortList.cpp
+        # leetcode/october/sortListMerge.cpp
+        # leetcode/october/houseRobber.cpp
+        # leetcode/october/twoSum.cpp
+        leetcode/october/rotateArray.cpp)
