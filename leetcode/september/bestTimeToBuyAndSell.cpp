@@ -16,9 +16,7 @@ public:
         if (prices.empty()) { return profit; }
         int minPrice = prices[0];
         for (int price : prices) {
-            if (price < minPrice) {
-                minPrice = price;
-            }
+            if (price < minPrice) { minPrice = price; }
             profit = max(profit, price - minPrice);
         }
         return profit;

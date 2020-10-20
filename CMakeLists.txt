@@ -148,4 +148,8 @@ add_executable(leetcode
         # leetcode/october/sortListMerge.cpp
         # leetcode/october/houseRobber.cpp
         # leetcode/october/twoSum.cpp
-        leetcode/october/rotateArray.cpp)
+        # leetcode/october/rotateArray.cpp
+        # leetcode/october/seek2DMatrix.cpp
+        # leetcode/october/buyAndSellStock4.cpp
+        # leetcode/october/minDominoRotations.cpp
+        leetcode/october/clone_graph.cpp)
