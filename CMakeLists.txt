@@ -152,4 +152,6 @@ add_executable(leetcode
         # leetcode/october/seek2DMatrix.cpp
         # leetcode/october/buyAndSellStock4.cpp
         # leetcode/october/minDominoRotations.cpp
-        leetcode/october/clone_graph.cpp)
+        # leetcode/october/clone_graph.cpp
+        # leetcode/october/asteroidCollision.cpp
+        leetcode/october/meetingRoomsTwo.cpp)
