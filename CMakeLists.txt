@@ -154,4 +154,32 @@ add_executable(leetcode
         # leetcode/october/minDominoRotations.cpp
         # leetcode/october/clone_graph.cpp
         # leetcode/october/asteroidCollision.cpp
-        leetcode/october/meetingRoomsTwo.cpp)
+        # leetcode/october/meetingRoomsTwo.cpp
+        # leetcode/october/minTreeDepth.cpp
+        # leetcode/october/find123pattern.cpp
+        # leetcode/october/bagOfTokens.cpp
+        # leetcode/find123pattern.cpp
+        # leetcode/october/searchAnUnknownSizeArray.cpp
+        # leetcode/october/stoneGameIV.cpp
+        # leetcode/september/stoneGameFourRetake.cpp
+        # leetcode/september/champagneTower.cpp
+        # leetcode/october/linkedListCycleII.cpp
+        # leetcode/october/summaryRanges.cpp
+        # leetcode/october/maxDistToClosest.cpp
+        # leetcode/october/longestIncreasingSubSeqNumber.cpp
+        # leetcode/october/recoverTree.cpp
+        # leetcode/october/naryTreeToBinaryTree.cpp
+        # leetcode/november/convertBinNumsFromLL.cpp
+        # leetcode/november/meetingRooms.cpp
+        # leetcode/november/insertionSortList.cpp
+        # leetcode/november/maxPowerOfString.cpp
+        # leetcode/november/minimumHeightTrees.cpp
+        # leetcode/november/minCostToMoveChips.cpp
+        # leetcode/november/minHeightTreesRetake.cpp
+        # leetcode/november/smallestDivisorWithThreshold.cpp
+        # leetcode/november/addNumbersII.cpp
+        # leetcode/november/binaryTreeTilt.cpp
+        # leetcode/november/maxAncestorsDiff.cpp
+        # leetcode/november/flipImage.cpp
+        # leetcode/november/validSquare.cpp
+        leetcode/november/permutationsII.cpp)
