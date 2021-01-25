@@ -182,4 +182,14 @@ add_executable(leetcode
         # leetcode/november/maxAncestorsDiff.cpp
         # leetcode/november/flipImage.cpp
         # leetcode/november/validSquare.cpp
-        leetcode/november/permutationsII.cpp)
+        # leetcode/november/permutationsII.cpp
+        # leetcode/november/populateNextRight.cpp
+        # leetcode/FreeRoam/dp/TwoKeysKeyboard.cpp
+        # leetcode/free_roam/partition.cpp
+        # leetcode/free_roam/minimum_number_of_steps_to_make_two_strings_anagram.cpp
+        # leetcode/free_roam/candy_crush.cpp
+        # leetcode/free_roam/move_all_zeroes.cpp
+        # leetcode/free_roam/move_zeros_to.cpp
+        # leetcode/free_roam/increase_operation_stack.cpp
+
+        leetcode/free_roam/candy_crush_retake.cpp)
