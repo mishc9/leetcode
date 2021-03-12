@@ -191,5 +191,6 @@ add_executable(leetcode
         # leetcode/free_roam/move_all_zeroes.cpp
         # leetcode/free_roam/move_zeros_to.cpp
         # leetcode/free_roam/increase_operation_stack.cpp
-
-        leetcode/free_roam/candy_crush_retake.cpp)
+        # leetcode/free_roam/candy_crush_retake.cpp
+        # leetcode/free_roam/equivalent_tree.cpp
+        leetcode/free_roam/verify_preorder_serialization.cpp)
